@@ -1,0 +1,17 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+.pytest_cache/ 
+
+# Python # 
+*.py[cod]
+
+# Installer logs 
+pip-log.txt 
+
+# Unit test / coverage reports 
+.pytest_cache/ 
