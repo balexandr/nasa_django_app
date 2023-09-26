@@ -1,0 +1,14 @@
+<div>
+    <h1>{{ title }}</h1>
+    <h2>{{ date }}</h2>
+    <img src="{{ url }}" alt="{{ title }}"/>
+    <h3>Google Results</h3>
+    <ul>
+        {% for title, snippet in google_results.items %}
+        <li>
+            <h3>{{ title }}</h3>
+            <p>{{ snippet }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
